@@ -1,0 +1,113 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background: #eeeeee;
+  margin: 1.5rem .5rem;
+  border-radius: 5px;
+}
+
+body {
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+header {
+  align-content: center;
+  display: flex;
+  width: auto;
+  margin: auto;
+}
+
+
+
+.header {
+  text-align: center;
+  overflow: hidden;
+  padding: 1rem;
+  
+  margin: 0 auto;
+  
+  }
+
+.header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+
+}
+.header > p {
+  font-weight: normal;
+}
+
+h3 {
+  text-align: center;
+}
+ul  {
+display:inline-block;
+text-align:left;
+}
+#image {
+  width: 80%;
+  display: block;
+  position: relative;
+  align-content: center;
+margin: auto;
+  }
+
+figcaption {
+  text-align: center;  
+  margin: 1.5rem 0; 
+  padding-bottom: 1rem;
+  line-height: 1.5rem;
+  }
+
+
+#img-div {
+  margin: 0 1rem;
+  background: white;
+  width: auto;
+  }
+
+#main {
+  width: 100%;
+  background: #eeeeee;
+}
+
+#tribute-info {
+  margin: auto ; 
+width: 450px;
+
+
+}
+
+.lists {
+  margin: 2.5rem auto;
+  line-height: 2.5rem;
+  text-align: center;
+  font-size: medium;
+}
+li {
+  line-height: 2rem;
+  padding: .25rem;
+}
+h3 {
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.india {
+  padding: 2rem 0;
+  display: block;
+}
+
+em {
+  line-height: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
