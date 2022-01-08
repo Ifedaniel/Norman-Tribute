@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.801);
+  --color-green: #37af65;
+}
+
+/* Background */
+#container {
+  background: url('../img/image.jpg') no-repeat fixed center/cover;
+  align-content: center;
+}
+
+#container #overlay {
+  background: var(--color-darkblue-alpha);
+  color: white;
+  height: 100%;
+  padding-top: 2.5rem;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Content */
+#title {
+  margin-bottom: 1rem;
+  font-weight: lighter;
+  display: inline-flex;
+  width: 100%;
+  text-align: center;
+}
+
+#description {
+  margin: 0 auto 2rem auto;
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: center;
+}
+
+#survey-form {
+  background: rgba(5, 6, 63, 0.747);
+  padding: 2.5rem;
+  height: 100%;
+  min-width: 55%;
+  display: flex;
+  flex-direction: column ;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+input {
+  border-radius: 5px;
+  padding: .5rem .75rem;
+  font-size: 1.1rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+input:focus, select:focus { 
+  outline: none;
+  border-color: #719ECE;
+  box-shadow: 0 0 15px #719ECE;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  flex: none;
+  transform: scale(1.5);
+  margin-bottom: 15px;
+}
+
+#dropdown {
+  height: 2.5rem;
+  padding: .5rem;
+  font-size: 1rem;
+  color: rgb(95, 93, 93);
+  font-weight: 510;
+}
+
+.friend {
+  text-align: left;
+  font-size: large;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+#submit {
+  margin: 2rem 0;
+  background: var(--color-green);
+  color: white;
+}
+
+textarea {
+  padding: .5rem;
+  font-size: 1.1rem;
+}
+
+select {
+  margin-bottom: 1.5rem;
+}
+
+
+textarea {
+  flex: none;
+  margin-top: .5rem;
+}
+
+.improve {
+  font-size: 1.1rem;
+}
+
+.comment {
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width:500px){
+  #survey-form {
+    padding: .5rem;
+  }
+}
