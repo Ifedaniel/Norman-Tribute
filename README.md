@@ -1,2 +1,2 @@
 # First Project
-This site is my first one out of the 5 projects on Freecode Camp.
+These projects are for earning my certificate in responsive web design on Freecode Camp.
